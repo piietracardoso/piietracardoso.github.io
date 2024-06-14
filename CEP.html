@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./assets/logo.png" rel="shortcut icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Coach Leo Martines</title>
+</head>
+<body>
+    <header>
+        <div class="logo">        
+            <img src="./assets/logo.png" title="logo" class="logo"/>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="CEP.html">CEP</a></li>
+            </ul>
+        </nav>
+
+        <img src="assets/banner_cep.png" class="banner"/>
+
+    </header>
+
+    <h2>Consultar CEP:</h2>
+    <label class="titulo">Digite o seu CEP</label>
+    <input type="number" id="cep"/>
+    <button onclick="consultaEndereco()">Consultar CEP</button>  
+    <div id="resultado">
+        <p>Endereço:</p>
+    </div>
+    <script src="consulta_endereco.js"></script>
+</body>
+</html>

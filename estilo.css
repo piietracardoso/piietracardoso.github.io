@@ -1,0 +1,89 @@
+body {
+    font-family: "Lucida Sans Unicode";
+    margin: 0;
+    padding: 0;
+    border: 0; 
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    background-color: white;
+}
+
+nav {
+    right: 55px;
+    position: absolute;
+    top: 70px;  
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 35px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: rgb(218, 165, 32);
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #000000;
+    text-decoration: underline;
+}
+
+.logo{
+    width:50%;
+    float: left;
+    margin-right: 10px;
+}
+
+.banner { 
+    width:  100%;
+}
+
+h2 {
+    color: #BB9C26;
+    text-align: left;
+}
+
+input[type="number"] {
+    padding: 10px;
+    border: 1px solid #BB9C26;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 80%;
+    max-width: 300px;
+}
+
+button {
+    background-color: #BB9C26;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #684f23;
+}
+
+#resultado {
+    margin-top: 20px;
+    background-color: #fff0e6;
+    padding: 15px;
+    border: 1px solid #BB9C26;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: left;
+    max-width: 400px;
+    width: 80%;
+}
+
+#resultado p {
+    margin: 5px 0;
+    color: #BB9C26;
+}
